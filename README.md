@@ -4,7 +4,7 @@ This is a zkSync airdrop scanner and claimer. This project is divided into five 
 
 - `spy.js`: Listens to each new block and stores it in the database.
 - `worker.js`: Scans the blocks stored by `spy.js` and records each transaction where a smart contract was deployed (**runs every 500 ms**).
-- `abizer.js`: Fetches the ABI of each smart contract that was deployed in a transaction recorded by `worker.js` (**runs every 28,800,000 ms**). Tries to find out if the zkSync token and airdrop smart contracts have been deployed.
+- `abizer.js`: Fetches the ABI of each smart contract deployed in a transaction recorded by `worker.js` (**runs every 28,800,000 ms**). Tries to find out if the zkSync token and airdrop smart contracts have been deployed.
 - `cleaner.js`: Deletes from the database all the smart contracts for which no ABI was found within a 5-day period (**runs every 86,400,000 ms**).
 - `claimer.js`: Claims the zkSync airdrop.
 
