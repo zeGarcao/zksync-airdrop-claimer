@@ -50,6 +50,12 @@ To list all processes, run the following command.
 pm2 list
 ```
 
+To stop all processes, run the following command.
+
+```zsh
+pm2 stop spy worker abizer cleaner
+```
+
 > **Note:** You can find more information about the `pm2` npm package [here](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ## Claimer Instructions
