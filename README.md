@@ -27,8 +27,6 @@ Next, clone the `.env.example` file and rename the cloned file as `.env`. Finall
 
 - `PROVIDER_URL`: zkSync RPC URL
 - `PRIVATE_KEYS`: Private keys separated by commas
-- `CMC_API_URL`: Coin Market Cap API URL
-- `CMC_API_KEY`: Coin Market Cap API key
 - `ZKS_API_URL`: zkSync API URL
 - `DB_NAME`: Name of database
 
