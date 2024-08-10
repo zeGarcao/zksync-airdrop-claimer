@@ -56,11 +56,11 @@ To stop all processes, run the following command.
 pm2 stop spy worker abizer cleaner
 ```
 
-> **Note:** You can find more information about the `pm2` npm package [here](https://pm2.keymetrics.io/docs/usage/quick-start/)
+> **Note:** You can find more information about the `pm2` npm package [here](https://pm2.keymetrics.io/docs/usage/quick-start/).
 
 ## Claimer Instructions
 
-To start running the claimer, you only need to run the following command in your terminal.
+To start running the claimer, you only need to run the following command in your terminal and follow the instructions.
 
 ```zsh
 node app/claimer.js
